@@ -1,0 +1,11 @@
+a) 3 2 5 6 4 1:
+Chuỗi các phép I và O để đạt được thứ tự này là:
+I I O I I O I O O
+
+b) 1 5 4 6 2 3:
+Chuỗi các phép I và O để đạt được thứ tự này là:
+I O I I I O O O
+
+c) 2 4 5 3 1 6:
+Chuỗi các phép I và O để đạt được thứ tự này là:
+I I O I I O O I O
