@@ -1,0 +1,30 @@
+a) (A + B ** C) * D/E – (F + G)
+   Dạng hậu tố: A B C ** + D E / F G + -
+
+   Tình trạng stack:
+   1. Đẩy A vào stack
+   2. Đẩy B vào stack
+   3. Đẩy C vào stack
+   4. Thực hiện phép ** (lũy thừa), lấy 2 số trên cùng của stack (B, C) và đẩy kết quả 7^5 = 16807 vào stack
+   5. Thực hiện phép + (cộng), lấy 2 số trên cùng của stack (A, 16807) và đẩy kết quả 16822 vào stack
+   6. Đẩy D vào stack
+   7. Đẩy E vào stack
+   8. Thực hiện phép / (chia), lấy 2 số trên cùng của stack (16822, 2) và đẩy kết quả 8411 vào stack
+   9. Đẩy F vào stack
+   10. Đẩy G vào stack
+   11. Thực hiện phép + (cộng), lấy 2 số trên cùng của stack (F, G) và đẩy kết quả 20 vào stack
+   12. Thực hiện phép - (trừ), lấy 2 số trên cùng của stack (8411, 20) và đẩy kết quả 8391 vào stack
+
+b) ((A + B) * D) ** (E – F)
+   Dạng hậu tố: A B + D * E F - **
+
+   Tình trạng stack:
+   1. Đẩy A vào stack
+   2. Đẩy B vào stack
+   3. Thực hiện phép + (cộng), lấy 2 số trên cùng của stack (A, B) và đẩy kết quả 22 vào stack
+   4. Đẩy D vào stack
+   5. Thực hiện phép * (nhân), lấy 2 số trên cùng của stack (22, 2) và đẩy kết quả 44 vào stack
+   6. Đẩy E vào stack
+   7. Đẩy F vào stack
+   8. Thực hiện phép - (trừ), lấy 2 số trên cùng của stack (E, F) và đẩy kết quả -1 vào stack
+   9. Thực hiện phép ** (lũy thừa), lấy 2 số trên cùng của stack (44, -1) và đẩy kết quả 0.0 vào stack
