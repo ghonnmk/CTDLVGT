@@ -1,0 +1,13 @@
+phân tích đoạn code này:
+
+Khai báo các biến số nguyên x = 3, y = 5, z = 2
+Tạo một stack s và gọi phương thức makeEmpty() để tạo stack rỗng
+Thêm x = 3 vào stack
+Thêm 4 vào stack, sau đó lấy phần tử 4 ra khỏi stack (pop)
+Thêm y = 5 vào stack
+Thêm 3 và z = 2 vào stack
+Lấy z = 2 ra khỏi stack
+Thêm 2 và x = 3 vào stack
+Lặp lại việc lấy các phần tử ra khỏi stack (pop) cho đến khi stack rỗng và in ra màn hình
+Vậy ta có đầu ra của đoạn code trên là 
+2 3 2 5 3 3
