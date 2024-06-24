@@ -1,0 +1,16 @@
+Phân tích đoạn code ta có:
+Khai báo các biến số nguyên x = 3, y = 1
+Tạo một stack s và gọi phương thức makeEmpty() để tạo stack rỗng
+Thêm 5 và 7 vào stack, sau đó lấy 7 ra khỏi stack (pop)
+Cập nhật giá trị của x thành x + y = 3 + 1 = 4
+Lấy 5 ra khỏi stack (pop)
+Thêm x = 4 vào stack, sau đó thêm y = 1 và 2 vào stack
+Lấy 2 ra khỏi stack (pop)
+Lấy y = 1 ra khỏi stack (pop)
+Lặp lại việc lấy các phần tử ra khỏi stack (pop) cho đến khi stack rỗng và in ra màn hình
+In ra giá trị của x và y
+Vậy ta có đầu ra của đoạn code trên là:
+1
+4
+x = 4
+y = 1
